@@ -1,0 +1,46 @@
+/*Header section*/
+header {
+  /*position & display*/
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /*styling*/
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+/*nested in header*/
+/*left side*/
+header img {
+  margin: 15px;
+}
+header a.header {
+  color: MediumAquamarine;
+}
+/*right side*/
+header nav {
+  margin-left: auto;
+  margin-right: 50px;
+}
+header nav a {
+  margin: 10px;
+  text-decoration: none;
+}
+/*end of header section*/
+
+/*main section*/
+main {
+  /*position and display*/
+  position:absolute;
+  top: 100px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
