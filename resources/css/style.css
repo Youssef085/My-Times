@@ -43,4 +43,39 @@ main {
   align-items: flex-start;
   justify-content: center;
 }
+/*1st level nesting in main*/
+main div.column {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
 
+.column.large {
+  flex-basis: 630px;
+  flex-grow: 3;
+  flex-shrink: 1;
+}
+
+.column.medium {
+  flex-basis: 300px;
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+
+.column.small {
+  flex-basis: 240px;
+  flex-grow: 1;
+  flex-shrink: 3;
+}
+
+.column div {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+main p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
